@@ -1,7 +1,7 @@
 let pokemon_activo=null;
 let lista_equipo = [];
 function asignarNumero(obj) {
-    //se obtiene el elemento html del pokemon
+    //se obtiene el elemento html del pokemons
     let numero_pokemon = document.getElementById('pokemon-numero');
     numero_pokemon.innerText += obj.innerText;
 }
